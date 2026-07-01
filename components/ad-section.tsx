@@ -60,7 +60,7 @@ export default function AdSection() {
             href="#reg-form"
             className="w-full sm:w-auto inline-flex items-center justify-center bg-[#C0392B] text-white px-12 py-4 rounded-xl font-bold hover:bg-[#a93226] hover:shadow-lg hover:shadow-[#C0392B]/20 active:scale-98 transition-all duration-300 text-lg tracking-wide shadow-md"
           >
-            Để lại thông tin — kiểm tra tiêu chí tham gia
+            Nhận tài liệu hướng dẫn & Tiêu chí xét duyệt từ HTV
           </a>
 
         </div>
