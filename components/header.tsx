@@ -42,15 +42,6 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-[#0d1221] italic">
       <div className="max-w-6xl mx-auto px-4 py-2.5 flex items-center justify-between">
 
-        {/* Logo */}
-        <div className="flex-shrink-0">
-          <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-zZRuJae60sNIIobA4Vmk66lzO30soc.png"
-            alt="Made by Vietnam"
-            className="w-40 md:w-48 h-auto object-contain block brightness-110"
-          />
-        </div>
-
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-6 ml-auto">
           <button
@@ -75,7 +66,7 @@ export default function Header() {
             onClick={() => scrollTo('reg-form')}
             className="bg-[#C0392B] text-white px-5 py-1.5 rounded-lg hover:bg-[#a93226] transition font-semibold text-sm cursor-pointer"
           >
-            Đăng ký
+            Nhận hướng dẫn & tiêu chí xét duyệt
           </button>
         </nav>
 

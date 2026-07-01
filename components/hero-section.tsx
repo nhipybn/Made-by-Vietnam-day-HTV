@@ -35,7 +35,7 @@ export default function HeroSection() {
               }}
               className="w-full py-4 px-10 rounded-xl font-black text-xl tracking-wider text-white uppercase bg-gradient-to-r from-[#C0392B] to-[#E74C3C] hover:from-[#E74C3C] hover:to-[#C0392B] border-b-4 border-[#962d22] active:border-b-0 active:mt-1 shadow-[0_5px_15px_rgba(192,57,43,0.3)] transition-all duration-200 cursor-pointer"
             >
-              Đăng Ký Tham Gia Ngay
+              Nhận hướng dẫn & tiêu chí xét duyệt
             </button>
             <p className="text-xs text-neutral-400 mt-3.5">
               * Thời gian mở cổng đăng ký có hạn cho ban tổ chức xếp chỗ vị trí VIP
