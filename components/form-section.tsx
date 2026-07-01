@@ -7,7 +7,7 @@ export default function FormSection() {
         {/* Phần Tiêu Đề */}
         <div className="text-center mb-8">
           <h2 className="text-2xl sm:text-4xl font-bold text-white mb-2">
-            Đăng ký tham gia
+            Vui lòng để lại thông tin trên form này!
           </h2>
           <p className="text-sm text-[rgba(255,255,255,0.5)]">
             Điền form dưới đây — ban tổ chức sẽ liên hệ và xác nhận trong 24 giờ
