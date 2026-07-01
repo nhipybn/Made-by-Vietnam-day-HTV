@@ -1,9 +1,10 @@
 
 export default function FormSection() {
   return (
-    <section id="reg-form" className="bg-[#0a1230] rounded-2xl p-6 sm:p-12 mt-8 sm:mt-12">  ← bỏ italic
+    <section id="reg-form" className="bg-[#0a1230] rounded-2xl p-6 sm:p-12 mt-8 sm:mt-12"> 
       <div className="max-w-5xl mx-auto">
         
+        {/* Phần Tiêu Đề */}
         <div className="text-center mb-8">
           <h2 className="text-2xl sm:text-4xl font-bold text-white mb-2">
             Đăng ký tham gia
@@ -13,7 +14,7 @@ export default function FormSection() {
           </p>
         </div>
  
-        <div className="bg-transparent">  ← xóa bg-white rounded shadow padding
+        <div className="bg-transparent"> 
           <iframe
             src="https://contents.bownow.jp/forms/view?form_id=sid_f504ec839d92df81ff28"
             width="100%"
