@@ -11,9 +11,9 @@ export default function HeroSection() {
         {/* Giới hạn nội dung chữ vừa mắt (max-w-5xl) */}
         <div className="w-full max-w-5xl mx-auto flex flex-col items-center">
           
-          {/* TIÊU ĐỀ CHÍNH: Đổi sang font không chân (Sans-serif) cực dày và màu vàng cát ánh kim chuẩn ảnh */}
+          {/* TIÊU ĐỀ CHÍNH: Đã hạ size xuống text-2xl cho mobile và text-5xl cho desktop, thêm tracking-tight để ép nằm gọn trên 1 hàng */}
           <h1 
-            className="text-4xl sm:text-7xl font-black tracking-wide mb-10 text-[#F4D381] uppercase leading-none select-none filter drop-shadow-[0_2px_4px_rgba(0,0,0,0.6)]"
+            className="text-2xl sm:text-5xl font-black tracking-tight mb-10 text-[#F4D381] uppercase leading-none select-none filter drop-shadow-[0_2px_4px_rgba(0,0,0,0.6)] whitespace-nowrap"
             style={{ fontFamily: "var(--font-bricolage), 'Arial Black', sans-serif" }}
           >
             MADE BY VIETNAM DAY 2026
